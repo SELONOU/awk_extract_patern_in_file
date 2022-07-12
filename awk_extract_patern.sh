@@ -1,4 +1,4 @@
-awk 'BEGIN { FS = "_" } { print $i}' file.txt # is use to change file separator (FS)
+awk 'BEGIN { FS = "_" } { print $i}' file.txt # is used to change file separator (FS)
 awk '{ print $i, $j, $k, $l }' file.txt # to get i, j , k and l columns with commas separators
 awk ' /pattern/ { print $i}' file.txt # is used to print kth column that contains this /pattern/
 #awk '/^[0-9][0-9]/ { print $i }' file.txt # /^[0-9][0-9]/ is used to print lth column that starts two or more digits
